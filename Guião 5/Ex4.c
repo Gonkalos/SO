@@ -51,7 +51,7 @@ int main (int argc, char* argv[]){
         case 0:
             // Código Filho 1
             close(p[0]);
-            dup2(p[1], 1); // ligar o stdout do primeiro comando ao estremo de escrita do 
+            dup2(p[1], 1); // ligar o stdout do primeiro comando ao estremo de escrita do pipe
             close(p[1]);
             exec_command(command1);
             _exit(0);
@@ -85,11 +85,3 @@ int main (int argc, char* argv[]){
 
     return 0; 
 }
-
-/* 
-Testes:
-./a.out
-Hello World
-...
-^d
-*/
