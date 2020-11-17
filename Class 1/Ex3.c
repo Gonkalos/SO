@@ -32,5 +32,5 @@ int main (int argc, char* argv[]){
 /*
 Testes:
 gcc Ex3.c
-./a.out texto.txt
+./a.out text.txt
 */
