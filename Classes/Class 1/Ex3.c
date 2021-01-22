@@ -30,7 +30,7 @@ int main (int argc, char* argv[]){
 }
 
 /*
-Testes:
+Tests:
 gcc Ex3.c
 ./a.out text.txt
 */
