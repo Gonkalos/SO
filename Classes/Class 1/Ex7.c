@@ -82,7 +82,7 @@ int main (int argc, char* argv[]){
 }
 
 /*
-Testes:
+Tests:
 ./a.out -i Mourinho 55
 registo 0
 ./a.out -u 0 56
