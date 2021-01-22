@@ -85,7 +85,7 @@ int main (int argc, char* argv[]){
 }
 
 /*
-Testes:
+Tests:
 ./a.out -i Mourinho 55
 ./a.out -u Mourinho 56
 */
